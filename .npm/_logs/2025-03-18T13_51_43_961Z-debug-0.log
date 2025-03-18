@@ -1,0 +1,260 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v23.10.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/mon-proxy/.npmrc
+5 silly config load:file:/data/data/com.termux/files/home/.npmrc
+6 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+7 verbose title npm install telegraf
+8 verbose argv "install" "telegraf"
+9 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-03-18T13_51_43_961Z-
+10 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-03-18T13_51_43_961Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:762839040 maxSize:190709760 maxEntrySize:95354880
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest telegraf@*
+16 silly packumentCache full:https://registry.npmjs.org/telegraf cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/telegraf 1219ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/telegraf set size:undefined disposed:false
+19 silly placeDep ROOT telegraf@4.16.3 OK for: mon-proxy@1.0.0 want: *
+20 silly fetch manifest @telegraf/types@^7.1.0
+21 silly packumentCache full:https://registry.npmjs.org/@telegraf%2ftypes cache-miss
+22 silly fetch manifest abort-controller@^3.0.0
+23 silly packumentCache full:https://registry.npmjs.org/abort-controller cache-miss
+24 silly fetch manifest debug@^4.3.4
+25 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/abort-controller 439ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/abort-controller set size:undefined disposed:false
+28 silly fetch manifest mri@^1.2.0
+29 silly packumentCache full:https://registry.npmjs.org/mri cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/debug 746ms (cache updated)
+31 silly packumentCache full:https://registry.npmjs.org/debug set size:undefined disposed:false
+32 silly fetch manifest node-fetch@^2.7.0
+33 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/mri 396ms (cache updated)
+35 silly packumentCache full:https://registry.npmjs.org/mri set size:undefined disposed:false
+36 silly fetch manifest p-timeout@^4.1.0
+37 silly packumentCache full:https://registry.npmjs.org/p-timeout cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/p-timeout 503ms (cache updated)
+39 silly packumentCache full:https://registry.npmjs.org/p-timeout set size:undefined disposed:false
+40 silly fetch manifest safe-compare@^1.1.4
+41 silly packumentCache full:https://registry.npmjs.org/safe-compare cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/@telegraf%2ftypes 1406ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/@telegraf%2ftypes set size:undefined disposed:false
+44 silly fetch manifest sandwich-stream@^2.0.2
+45 silly packumentCache full:https://registry.npmjs.org/sandwich-stream cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/node-fetch 721ms (cache updated)
+47 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:undefined disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/safe-compare 1001ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/safe-compare set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/sandwich-stream 1125ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/sandwich-stream set size:undefined disposed:false
+52 silly fetch manifest encoding@^0.1.0
+53 silly packumentCache full:https://registry.npmjs.org/encoding cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/encoding 420ms (cache updated)
+55 silly packumentCache full:https://registry.npmjs.org/encoding set size:undefined disposed:false
+56 silly placeDep ROOT @telegraf/types@7.1.0 OK for: telegraf@4.16.3 want: ^7.1.0
+57 silly placeDep ROOT abort-controller@3.0.0 OK for: telegraf@4.16.3 want: ^3.0.0
+58 silly placeDep node_modules/telegraf debug@4.4.0 OK for: telegraf@4.16.3 want: ^4.3.4
+59 silly placeDep ROOT mri@1.2.0 OK for: telegraf@4.16.3 want: ^1.2.0
+60 silly placeDep ROOT node-fetch@2.7.0 OK for: telegraf@4.16.3 want: ^2.7.0
+61 silly placeDep ROOT p-timeout@4.1.0 OK for: telegraf@4.16.3 want: ^4.1.0
+62 silly placeDep ROOT safe-compare@1.1.4 OK for: telegraf@4.16.3 want: ^1.1.4
+63 silly placeDep ROOT sandwich-stream@2.0.2 OK for: telegraf@4.16.3 want: ^2.0.2
+64 silly fetch manifest event-target-shim@^5.0.0
+65 silly packumentCache full:https://registry.npmjs.org/event-target-shim cache-miss
+66 silly fetch manifest ms@^2.1.3
+67 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+68 silly fetch manifest whatwg-url@^5.0.0
+69 silly packumentCache full:https://registry.npmjs.org/whatwg-url cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/event-target-shim 343ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/event-target-shim set size:undefined disposed:false
+72 silly fetch manifest buffer-alloc@^1.2.0
+73 silly packumentCache full:https://registry.npmjs.org/buffer-alloc cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/whatwg-url 460ms (cache updated)
+75 silly packumentCache full:https://registry.npmjs.org/whatwg-url set size:undefined disposed:false
+76 http fetch GET 200 https://registry.npmjs.org/ms 483ms (cache updated)
+77 silly packumentCache full:https://registry.npmjs.org/ms set size:undefined disposed:false
+78 http fetch GET 200 https://registry.npmjs.org/buffer-alloc 361ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/buffer-alloc set size:undefined disposed:false
+80 silly placeDep ROOT event-target-shim@5.0.1 OK for: abort-controller@3.0.0 want: ^5.0.0
+81 silly placeDep ROOT whatwg-url@5.0.0 OK for: node-fetch@2.7.0 want: ^5.0.0
+82 silly fetch manifest tr46@~0.0.3
+83 silly packumentCache full:https://registry.npmjs.org/tr46 cache-miss
+84 silly fetch manifest webidl-conversions@^3.0.0
+85 silly packumentCache full:https://registry.npmjs.org/webidl-conversions cache-miss
+86 http fetch GET 200 https://registry.npmjs.org/tr46 407ms (cache updated)
+87 silly packumentCache full:https://registry.npmjs.org/tr46 set size:undefined disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 414ms (cache updated)
+89 silly packumentCache full:https://registry.npmjs.org/webidl-conversions set size:undefined disposed:false
+90 silly placeDep ROOT buffer-alloc@1.2.0 OK for: safe-compare@1.1.4 want: ^1.2.0
+91 silly fetch manifest buffer-alloc-unsafe@^1.1.0
+92 silly packumentCache full:https://registry.npmjs.org/buffer-alloc-unsafe cache-miss
+93 silly fetch manifest buffer-fill@^1.0.0
+94 silly packumentCache full:https://registry.npmjs.org/buffer-fill cache-miss
+95 http fetch GET 200 https://registry.npmjs.org/buffer-alloc-unsafe 298ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/buffer-alloc-unsafe set size:undefined disposed:false
+97 http fetch GET 200 https://registry.npmjs.org/buffer-fill 338ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/buffer-fill set size:undefined disposed:false
+99 silly placeDep ROOT buffer-alloc-unsafe@1.1.0 OK for: buffer-alloc@1.2.0 want: ^1.1.0
+100 silly placeDep ROOT buffer-fill@1.0.0 OK for: buffer-alloc@1.2.0 want: ^1.0.0
+101 silly placeDep ROOT tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+102 silly placeDep ROOT webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+103 silly placeDep node_modules/telegraf ms@2.1.3 OK for: debug@4.4.0 want: ^2.1.3
+104 silly reify moves {}
+105 silly audit bulk request {
+105 silly audit   accepts: [ '1.3.8' ],
+105 silly audit   'array-flatten': [ '1.1.1' ],
+105 silly audit   asynckit: [ '0.4.0' ],
+105 silly audit   axios: [ '1.8.3' ],
+105 silly audit   'body-parser': [ '1.20.3' ],
+105 silly audit   bytes: [ '3.1.2' ],
+105 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+105 silly audit   'call-bound': [ '1.0.4' ],
+105 silly audit   'combined-stream': [ '1.0.8' ],
+105 silly audit   'content-disposition': [ '0.5.4' ],
+105 silly audit   'content-type': [ '1.0.5' ],
+105 silly audit   cookie: [ '0.7.1' ],
+105 silly audit   'cookie-signature': [ '1.0.6' ],
+105 silly audit   debug: [ '2.6.9', '4.4.0' ],
+105 silly audit   'delayed-stream': [ '1.0.0' ],
+105 silly audit   depd: [ '2.0.0' ],
+105 silly audit   destroy: [ '1.2.0' ],
+105 silly audit   'dunder-proto': [ '1.0.1' ],
+105 silly audit   'ee-first': [ '1.1.1' ],
+105 silly audit   encodeurl: [ '2.0.0', '1.0.2' ],
+105 silly audit   'es-define-property': [ '1.0.1' ],
+105 silly audit   'es-errors': [ '1.3.0' ],
+105 silly audit   'es-object-atoms': [ '1.1.1' ],
+105 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+105 silly audit   'escape-html': [ '1.0.3' ],
+105 silly audit   etag: [ '1.8.1' ],
+105 silly audit   express: [ '4.21.2' ],
+105 silly audit   finalhandler: [ '1.3.1' ],
+105 silly audit   'follow-redirects': [ '1.15.9' ],
+105 silly audit   'form-data': [ '4.0.2' ],
+105 silly audit   forwarded: [ '0.2.0' ],
+105 silly audit   fresh: [ '0.5.2' ],
+105 silly audit   'function-bind': [ '1.1.2' ],
+105 silly audit   'get-intrinsic': [ '1.3.0' ],
+105 silly audit   'get-proto': [ '1.0.1' ],
+105 silly audit   gopd: [ '1.2.0' ],
+105 silly audit   'has-symbols': [ '1.1.0' ],
+105 silly audit   'has-tostringtag': [ '1.0.2' ],
+105 silly audit   hasown: [ '2.0.2' ],
+105 silly audit   'http-errors': [ '2.0.0' ],
+105 silly audit   'iconv-lite': [ '0.4.24' ],
+105 silly audit   inherits: [ '2.0.4' ],
+105 silly audit   'ipaddr.js': [ '1.9.1' ],
+105 silly audit   'math-intrinsics': [ '1.1.0' ],
+105 silly audit   'media-typer': [ '0.3.0' ],
+105 silly audit   'merge-descriptors': [ '1.0.3' ],
+105 silly audit   methods: [ '1.1.2' ],
+105 silly audit   mime: [ '1.6.0' ],
+105 silly audit   'mime-db': [ '1.52.0' ],
+105 silly audit   'mime-types': [ '2.1.35' ],
+105 silly audit   ms: [ '2.0.0', '2.1.3' ],
+105 silly audit   negotiator: [ '0.6.3' ],
+105 silly audit   'object-inspect': [ '1.13.4' ],
+105 silly audit   'on-finished': [ '2.4.1' ],
+105 silly audit   parseurl: [ '1.3.3' ],
+105 silly audit   'path-to-regexp': [ '0.1.12' ],
+105 silly audit   'proxy-addr': [ '2.0.7' ],
+105 silly audit   'proxy-from-env': [ '1.1.0' ],
+105 silly audit   qs: [ '6.13.0' ],
+105 silly audit   'range-parser': [ '1.2.1' ],
+105 silly audit   'raw-body': [ '2.5.2' ],
+105 silly audit   'safe-buffer': [ '5.2.1' ],
+105 silly audit   'safer-buffer': [ '2.1.2' ],
+105 silly audit   send: [ '0.19.0' ],
+105 silly audit   'serve-static': [ '1.16.2' ],
+105 silly audit   setprototypeof: [ '1.2.0' ],
+105 silly audit   'side-channel': [ '1.1.0' ],
+105 silly audit   'side-channel-list': [ '1.0.0' ],
+105 silly audit   'side-channel-map': [ '1.0.1' ],
+105 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+105 silly audit   statuses: [ '2.0.1' ],
+105 silly audit   toidentifier: [ '1.0.1' ],
+105 silly audit   'type-is': [ '1.6.18' ],
+105 silly audit   unpipe: [ '1.0.0' ],
+105 silly audit   'utils-merge': [ '1.0.1' ],
+105 silly audit   vary: [ '1.1.2' ],
+105 silly audit   telegraf: [ '4.16.3' ],
+105 silly audit   '@telegraf/types': [ '7.1.0' ],
+105 silly audit   'abort-controller': [ '3.0.0' ],
+105 silly audit   mri: [ '1.2.0' ],
+105 silly audit   'node-fetch': [ '2.7.0' ],
+105 silly audit   'p-timeout': [ '4.1.0' ],
+105 silly audit   'safe-compare': [ '1.1.4' ],
+105 silly audit   'sandwich-stream': [ '2.0.2' ],
+105 silly audit   'event-target-shim': [ '5.0.1' ],
+105 silly audit   'whatwg-url': [ '5.0.0' ],
+105 silly audit   'buffer-alloc': [ '1.2.0' ],
+105 silly audit   'buffer-alloc-unsafe': [ '1.1.0' ],
+105 silly audit   'buffer-fill': [ '1.0.0' ],
+105 silly audit   tr46: [ '0.0.3' ],
+105 silly audit   'webidl-conversions': [ '3.0.1' ]
+105 silly audit }
+106 http cache webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 1ms (cache hit)
+107 http cache tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 1ms (cache hit)
+108 http cache buffer-fill@https://registry.npmjs.org/buffer-fill/-/buffer-fill-1.0.0.tgz 0ms (cache hit)
+109 http cache buffer-alloc-unsafe@https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz 1ms (cache hit)
+110 http cache buffer-alloc@https://registry.npmjs.org/buffer-alloc/-/buffer-alloc-1.2.0.tgz 0ms (cache hit)
+111 http cache whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 0ms (cache hit)
+112 http cache event-target-shim@https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz 0ms (cache hit)
+113 http cache safe-compare@https://registry.npmjs.org/safe-compare/-/safe-compare-1.1.4.tgz 0ms (cache hit)
+114 http cache sandwich-stream@https://registry.npmjs.org/sandwich-stream/-/sandwich-stream-2.0.2.tgz 0ms (cache hit)
+115 http cache p-timeout@https://registry.npmjs.org/p-timeout/-/p-timeout-4.1.0.tgz 1ms (cache hit)
+116 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.7.0.tgz 0ms (cache hit)
+117 http cache mri@https://registry.npmjs.org/mri/-/mri-1.2.0.tgz 0ms (cache hit)
+118 http cache abort-controller@https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz 1ms (cache hit)
+119 http cache @telegraf/types@https://registry.npmjs.org/@telegraf/types/-/types-7.1.0.tgz 0ms (cache hit)
+120 http cache telegraf@https://registry.npmjs.org/telegraf/-/telegraf-4.16.3.tgz 1ms (cache hit)
+121 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.0.tgz 0ms (cache hit)
+122 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+123 silly tarball no local data for buffer-fill@https://registry.npmjs.org/buffer-fill/-/buffer-fill-1.0.0.tgz. Extracting by manifest.
+124 silly tarball no local data for buffer-alloc-unsafe@https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz. Extracting by manifest.
+125 silly tarball no local data for buffer-alloc@https://registry.npmjs.org/buffer-alloc/-/buffer-alloc-1.2.0.tgz. Extracting by manifest.
+126 silly tarball no local data for event-target-shim@https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz. Extracting by manifest.
+127 silly tarball no local data for safe-compare@https://registry.npmjs.org/safe-compare/-/safe-compare-1.1.4.tgz. Extracting by manifest.
+128 silly tarball no local data for sandwich-stream@https://registry.npmjs.org/sandwich-stream/-/sandwich-stream-2.0.2.tgz. Extracting by manifest.
+129 silly tarball no local data for p-timeout@https://registry.npmjs.org/p-timeout/-/p-timeout-4.1.0.tgz. Extracting by manifest.
+130 silly tarball no local data for abort-controller@https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz. Extracting by manifest.
+131 silly tarball no local data for @telegraf/types@https://registry.npmjs.org/@telegraf/types/-/types-7.1.0.tgz. Extracting by manifest.
+132 silly tarball no local data for telegraf@https://registry.npmjs.org/telegraf/-/telegraf-4.16.3.tgz. Extracting by manifest.
+133 http fetch GET 200 https://registry.npmjs.org/buffer-fill/-/buffer-fill-1.0.0.tgz 659ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/buffer-alloc-unsafe/-/buffer-alloc-unsafe-1.1.0.tgz 659ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/buffer-alloc/-/buffer-alloc-1.2.0.tgz 707ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/abort-controller/-/abort-controller-3.0.0.tgz 750ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/event-target-shim/-/event-target-shim-5.0.1.tgz 771ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/p-timeout/-/p-timeout-4.1.0.tgz 824ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/safe-compare/-/safe-compare-1.1.4.tgz 870ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/sandwich-stream/-/sandwich-stream-2.0.2.tgz 1138ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/@telegraf/types/-/types-7.1.0.tgz 1286ms (cache miss)
+142 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 1729ms
+143 silly audit report {}
+144 http fetch GET 200 https://registry.npmjs.org/telegraf/-/telegraf-4.16.3.tgz 1570ms (cache miss)
+145 silly ADD node_modules/webidl-conversions
+146 silly ADD node_modules/tr46
+147 silly ADD node_modules/buffer-fill
+148 silly ADD node_modules/buffer-alloc-unsafe
+149 silly ADD node_modules/buffer-alloc
+150 silly ADD node_modules/whatwg-url
+151 silly ADD node_modules/event-target-shim
+152 silly ADD node_modules/sandwich-stream
+153 silly ADD node_modules/safe-compare
+154 silly ADD node_modules/p-timeout
+155 silly ADD node_modules/node-fetch
+156 silly ADD node_modules/mri
+157 silly ADD node_modules/abort-controller
+158 silly ADD node_modules/@telegraf/types
+159 silly ADD node_modules/telegraf
+160 silly ADD node_modules/telegraf/node_modules/ms
+161 silly ADD node_modules/telegraf/node_modules/debug
+162 verbose cwd /data/data/com.termux/files/home/mon-proxy
+163 verbose os Linux 4.19.127-gfc2fca064b48-dirty
+164 verbose node v23.10.0
+165 verbose npm  v10.9.2
+166 verbose exit 0
+167 info ok
