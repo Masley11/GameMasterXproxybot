@@ -1,9 +1,9 @@
-# Fichiers à ignorer
-   .bash_history
-   .bashrc
-   .gitconfig
-   .lesshst
-   .mariadb_history
-   .netrc
-   .npmrc
-   .yarnrc
+# Dossiers à ignorer
+   .compositeur/
+   .config/termux/
+   .local/partage/
+   .npm/
+   .pyenv/
+   .ssh/
+   "bot de fichiers télégrammes/"
+   venv/
