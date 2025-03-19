@@ -1,0 +1,27 @@
+# Ignorer les fichiers de cache et d'historique
+     .bash_history
+     .lesshst
+     .mariadb_history
+     .npm/
+     .npmrc
+     .yarnrc
+     .ssh/
+     .config/
+     .local/
+     .pyenv/
+
+     # Ignorer l'environnement virtuel
+     venv/
+     .venv/
+
+     # Ignorer les fichiers de configuration sensibles
+     .env
+     *.env
+
+     # Ignorer les fichiers Python compilés
+     __pycache__/
+     *.pyc
+
+     # Ignorer les fichiers temporaires
+     *.log
+     *.tmp
